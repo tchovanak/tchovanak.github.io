@@ -1,126 +1,37 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<title>QGIS Plugins - Official Repository</title>
-<style>
-body  {
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  width: 45em;
-}
-a{
-  color:black;
-}
-div.head {
-  background-color:#589632;
-  border-bottom-width:0;
-  color:#0;
-  display:block;
-  font-size:100%;
-  font-weight:bold;
-  margin:0;
-  padding:0.3em 1em;
-}
-div.plugin {
-  _background-color:#ddfb63;
-  border: solid 1px gray;
-  clear:both;
-  display:block;
-  padding:0 0 0.5em;
-  margin:1em;
-}
-div.menu{
-  display:block;
-  text-align: left;
-  font-size:100%;
-}
-div.description{
-  display: block;
-  float:none;
-  margin:0;
-  text-align: left;
-  padding:0.2em 0.5em 0.4em;
-  color: black;
-  font-size:85%;
-  font-weight:normal;
-  font-style: italic;
-}
-div.about{
-  display: block;
-  float:none;
-  margin:0;
-  text-align: left;
-  padding:0.2em 0.5em 0.4em;
-  color: black;
-  font-size:85%;
-  font-weight:normal;
- }
-div.tags{
-  padding:0 0 0 1em;
-  font-size:85%;
-  font-weight:normal;
-}
-div.download, div.author, div.branch{
-  font-size: 80%;
-  padding: 0em 0em 0em 1em;
- }
-td.menu_panel {
-  width: 25%;
-  font-size: 80%;
-}
-</style>
-</head>
-<body>
-<img src="https://qgis.org/en/_downloads/qgis-icon64.png"><h2>QGIS Python Plugins</h2>
-<p>
-NOTE: The preferred way to install QGIS plugins is via the <a href="https://docs.qgis.org/testing/en/docs/user_manual/plugins/plugins.html">Plugin Manager</a> in QGIS itself!
-QGIS will download this list automatically and make it possible to install a plugin with one click.
-</p>
-<p>
-NOTE: Here you only see a representation of the plugins working for the requested version (defined by the "<code>?qgis=x.y.z</code>" part of the url).
-</p>
-<table><tr>
-<td valign="top" class="menu_panel">
-<div class="menu"><a href="https://plugins.qgis.org/plugins/zoomview/version/1.1.1/download/">ZoomView</a></div>
-</td>
-<td class="body_panel">
-<div class="plugin">
-<div class="head">ZoomView : 1.1.1</div>
-<div class="description">Adds a dock panel showing a magnification of the map canvas around a selected point. Map tools are still usable in the central map canvas and also in the ZoomView.</div>
-<div class="about">See the project homepage for a detailed overview and usage instructions.</div>
-<div class="tags">
-Tags: zoom,map view,magnification,point selection</div>
-<div class="download">
-Download:
-<a href="https://plugins.qgis.org/plugins/zoomview/version/1.1.1/download/">zoomview.1.1.1.zip</a>
-</div>
-<div class="author">
-Author: Andreas Rabe</div>
-<div class="author">
-Version: 1.1.1</div>
-<div class="author">
-Trusted: False</div>
-<div class="branch">
-Experimental: False</div>
-<div class="branch">
-Deprecated: False</div>
-<div class="author">
-Minimum QGIS Version: 3.0.0</div>
-<div class="author">
-Maximum QGIS Version: 4.0.0</div>
-<div class="author">
-Home page:
-<a href="https://zoomview.readthedocs.io">https://zoomview.readthedocs.io</a>
-</div>
-<div class="author">
-Tracker:
-<a href="https://bitbucket.org/janzandr/zoomview/issues">https://bitbucket.org/janzandr/zoomview/issues</a>
-</div>
-<div class="author">
-Repository:
-<a href="https://bitbucket.org/janzandr/zoomview">https://bitbucket.org/janzandr/zoomview</a>
-</div>
-</div>
-</td>
-</tr></table>
-</body>
-</html>
+<?xml version = '1.0' encoding = 'UTF-8'?> 
+        <?xml-stylesheet type="text/xsl"href="" ?> 
+        <plugins> 
+          <pyqgis_plugin name="My Plugin" version="0.1.0" plugin_id="227"> 
+            <description> 
+              <![CDATA[Demonstration of a QGIS Plugin]]> 
+            </description> 
+            <about></about> 
+            <version>0.1.0</version> 
+            <qgis_minimum_version>1.8.0</qgis_minimum_version> 
+            <qgis_maximum_version>2.9.9</qgis_maximum_version> 
+            <homepage> 
+              <![CDATA[https://github.com/GeospatialPython/Learn]]> 
+            </homepage> 
+            <file_name>MyPlugin.0.1.0.zip</file_name> 
+            <icon>https://github.com/GeospatialPython/
+            Learn/raw/master/icon_227.png</icon> 
+            <author_name><![CDATA[Joel Lawhead]]></author_name> 
+            <download_url>https://github.com/GeospatialPython/
+            Learn/raw/master/MyPlugin.0.1.0.zip</download_url> 
+            <uploaded_by><![CDATA[jll]]></uploaded_by> 
+            <create_date>2016-11-19T15:31:19.824333</create_date> 
+            <update_date>2016-11-19T15:31:19.824333</update_date> 
+            <experimental>True</experimental> 
+            <deprecated>False</deprecated> 
+            <tracker> 
+              <![CDATA[https://github.com/GeospatialPython/Learn/issues]]> 
+            </tracker> 
+            <repository> 
+              <![CDATA[https://github.com/GeospatialPython/Learn/]]> 
+            </repository> 
+            <tags><![CDATA[development,debugging,tools]]></tags> 
+            <downloads>0</downloads> 
+            <average_vote>0</average_vote> 
+            <rating_votes>0</rating_votes> 
+          </pyqgis_plugin> 
+        </plugins> 
